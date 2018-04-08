@@ -1,5 +1,5 @@
 ---
-- hosts: web_server
+- hosts: ubuntunode
   sudo: yes
   tasks:
   - name: update cache
