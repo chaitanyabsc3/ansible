@@ -1,0 +1,9 @@
+---
+- hosts: web server
+  become: yes
+  vars:
+    web server: "192.168.99.190"
+  tasks:
+   - name: update cache
+     apt:
+      update_cache: yes 
