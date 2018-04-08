@@ -3,5 +3,5 @@
   sudo: yes
   tasks:
   - name: update cache
-     apt:
+    apt:
       update_cache: yes 
