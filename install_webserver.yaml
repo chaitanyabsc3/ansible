@@ -1,7 +1,6 @@
 ---
 - hosts: 192.168.99.190
   sudo: yes
-  gathering facts: no
   tasks:
   - name: update cache
     apt:
