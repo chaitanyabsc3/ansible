@@ -1,6 +1,6 @@
 ---
-- hosts: all
   - apt:
      name: apt
      update_cache: yes   
      become: yes
+    hosts: all 
