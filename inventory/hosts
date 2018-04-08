@@ -1,5 +1,5 @@
 [web_server]
- 192.168.99.190
+ubuntunode 
 
 [app_server]
  192.168.99.191
