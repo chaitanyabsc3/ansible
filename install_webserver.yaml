@@ -2,6 +2,6 @@
 - hosts: all
   sudo: yes
   tasks:
-   - name: update cache
+  - name: update cache
      apt:
       update_cache: yes 
