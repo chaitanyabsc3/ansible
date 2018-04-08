@@ -5,3 +5,10 @@
   - name: update cache
     apt:
       update_cache: yes 
+  sudo: yes
+  tasks: 
+  - name: "install nginx server"
+    apt:
+      name: nginx
+      state: present
+      
