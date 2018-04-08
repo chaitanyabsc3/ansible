@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.99.190
+- hosts: web_server
   sudo: yes
   tasks:
   - name: update cache
