@@ -1,5 +1,5 @@
 ---
-  - apt:
+    apt:
      name: apt
      update_cache: yes   
     hosts: all 
