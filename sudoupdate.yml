@@ -1,6 +1,7 @@
 ---
-- tasks: all
-    -name: update all the host
-    become: yes
-    update: cache
+hosts: all
+- tasks: update 
+  - name: update all the host
+     become: yes
+     update: cache
     
