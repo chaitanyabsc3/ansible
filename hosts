@@ -1,5 +1,5 @@
-[web_server]
+[webserver]
 192.168.99.190
 
-[app_server]
+[appserver]
 192.168.99.191
